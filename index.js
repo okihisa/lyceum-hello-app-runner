@@ -6,7 +6,7 @@ const port = 8080;
 app.use(express.json()); // application/json
 
 app.get("/", function (req, res) {
-  res.send("Express!Express!Express!Express!Express!Express!Express!");
+  res.send("Express!もう一度修正");
 });
 
 app.get("/json", function (req, res) {
